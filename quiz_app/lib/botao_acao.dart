@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+
+//COPIAR PARA O MEU USUARIO E MUDAR QUANTIDADE DE QUESTÕES//
 class BotaoAcao extends StatelessWidget {
   final String texto;
   final Function acao;
@@ -21,7 +23,7 @@ class BotaoAcao extends StatelessWidget {
             height: 50,
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.yellow,
+                backgroundColor: Color.fromARGB(148, 216, 136, 136),
                 foregroundColor: Colors.black,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(50),
